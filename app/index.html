@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 tutorial by Themesberg</title>
+    <link rel="stylesheet" href="css/themesberg.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Bootstrap 5 tutorial</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+            <form class="d-flex mr-2">
+              <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <button class="btn btn-primary" id="registerAccountButton">Register account</button>
+          </div>
+        </div>
+      </nav>
+      <div class="container my-5">
+          <div class="row d-flex justify-content-center">
+              <!-- Main row for blog posts -->
+              <div class="col-12 col-lg-6">
+                <div class="card mb-4">
+                    <img src="https://themesberg.s3.us-east-2.amazonaws.com/public/posts/bootstrap-version-5-alpha-launched.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Bootstrap 5 no longer requires jQuery and also drops support for IE 10 and 11</h5>
+                      <p class="card-text">The first alpha version of Bootstrap 5 has finally arrived with many exciting changes and updates including dropping jQuery as a dependency and support for IE 10 and 11. Read more about the changes in this article.</p>
+                      <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <img src="https://themesberg.s3.us-east-2.amazonaws.com/public/posts/bootstrap-version-5-alpha-launched.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Bootstrap 5 no longer requires jQuery and also drops support for IE 10 and 11</h5>
+                      <p class="card-text">The first alpha version of Bootstrap 5 has finally arrived with many exciting changes and updates including dropping jQuery as a dependency and support for IE 10 and 11. Read more about the changes in this article.</p>
+                      <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <img src="https://themesberg.s3.us-east-2.amazonaws.com/public/posts/bootstrap-version-5-alpha-launched.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Bootstrap 5 no longer requires jQuery and also drops support for IE 10 and 11</h5>
+                      <p class="card-text">The first alpha version of Bootstrap 5 has finally arrived with many exciting changes and updates including dropping jQuery as a dependency and support for IE 10 and 11. Read more about the changes in this article.</p>
+                      <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <img src="https://themesberg.s3.us-east-2.amazonaws.com/public/posts/bootstrap-version-5-alpha-launched.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Bootstrap 5 no longer requires jQuery and also drops support for IE 10 and 11</h5>
+                      <p class="card-text">The first alpha version of Bootstrap 5 has finally arrived with many exciting changes and updates including dropping jQuery as a dependency and support for IE 10 and 11. Read more about the changes in this article.</p>
+                      <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                  </nav>
+              </div>
+              <!-- Sidebar (related articles, newsletter signup etc) -->
+              <div class="col-12 col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5>Follow us on social media</h5>
+                        <a href="https://www.facebook.com/themesberg/" class="btn btn-secondary mr-2" data-toggle="tooltip" data-placement="top" title="Like us on Facebook">
+                          Facebook
+                        </a>
+                        <a href="https://twitter.com/themesberg" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Follow us on Twitter">
+                          Twitter
+                        </a>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5>Subscribe to our weekly newsletter</h5>
+                        <form action="#">
+                            <div class="input-group my-3">
+                                <span class="input-group-text" id="email-at">@</span>
+                                <input type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="email-at" required>
+                            </div>
+                            <button type="submit" class="btn btn-block btn-primary">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="modal" tabindex="-1" id="registerAccountModal">
+        <div class="modal-dialog">
+          <form action="#" class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Register account</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" required>
+              </div>
+              <div class="mb-3">
+                <label for="confirmPassword" class="form-label">Confirm password</label>
+                <input type="password" class="form-control" id="confirmPassword" required>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Save changes</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+      <script src="./js/themesberg.js"></script>
+</body>
+</html>
