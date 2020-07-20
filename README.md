@@ -1,6 +1,6 @@
-# Project files for the [Bootstrap 5 Tutorial on Themesberg](https://themesberg.com/blog/tutorial/gulp-4-bootstrap-sass-browsersync)
+# Project files for the [Bootstrap 5 Tutorial on Themesberg](https://themesberg.com/blog/tutorial/bootstrap-5-tutorial)
 
-![Bootstrap 5 Tutorial on Themesberg](https://themesberg.s3.us-east-2.amazonaws.com/public/posts/gulp-4-bootstrap-browsersync-sass-tutorial-themesberg.jpg)
+![Bootstrap 5 Tutorial on Themesberg](https://themesberg.s3.us-east-2.amazonaws.com/public/posts/bootstrap-5-tutorial/bootstrap-5-tutorial.jpg)
 
 ## Getting started
 
