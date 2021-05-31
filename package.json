@@ -1,12 +1,12 @@
 {
   "name": "bootstrap-5-gulp-tutorial",
   "version": "1.0.0",
-  "description": "",
+  "description": "![Bootstrap 5 Tutorial on Themesberg](https://themesberg.s3.us-east-2.amazonaws.com/public/posts/bootstrap-5-tutorial/bootstrap-5-tutorial.jpg)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "muskan",
   "license": "ISC",
   "dependencies": {
     "@popperjs/core": "^2.4.4",
@@ -16,5 +16,13 @@
     "browser-sync": "^2.26.10",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuskanGupta12/bootstrap-5-tutorial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MuskanGupta12/bootstrap-5-tutorial/issues"
+  },
+  "homepage": "https://github.com/MuskanGupta12/bootstrap-5-tutorial#readme"
 }
